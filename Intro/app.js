@@ -82,3 +82,47 @@
 //    }
 //    document.write("<br>")
 // }
+
+
+// Generating random numbers:
+// Math.random()
+// console.log(Math.random())
+
+
+// Toss game:
+// let headUser= prompt("Enter head user name")
+// let tailUser= prompt ("Enter tails user name")
+// let toss = Math.random()*2;
+// let floor = Math.floor(toss)
+// if(floor === 0){
+//     console.log("Heads:" +headUser + " " + "Won the toss")
+// }else{
+//     console.log("Tails:" + tailUser + " " + "won the toss")
+// }
+
+
+
+
+// Date:
+// var d = new Date()
+// console.log(d)
+// let day = d.getDay()
+// console.log(day)
+// let month = d.getMonth();
+// console.log(month)
+
+
+
+// Switch statement:
+
+// let name = "bilal";
+// switch (name){
+// case "billa":
+//     console.log("hello there billa!")
+//     break;
+//     case "bilal":
+//         console.log("hello bilal");
+//         break;
+//         default:
+//             console.log("you are not eligible!")
+// }
