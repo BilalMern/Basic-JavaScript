@@ -35,3 +35,50 @@
 //         console.log("pakistan zindabad")
 //     }
 // }
+
+
+
+// let names=["bilal","qaiser"]
+// for(let i =0;i<names.length;i++){
+//     console.log(names[i]+ " " + "Ahmed")
+// }
+
+
+//reversing the string
+// let word = "bilal";
+// for(let i=word.length-1;i>=0;i--){
+//     console.log(word[i])
+// }
+
+
+
+//Palindrome word:
+// let word= prompt ("Enter your word")
+// let check="";
+// for(let i = word.length-1; i >=0; i--){
+// check = check+word[i]
+// }
+// if(word=== check){
+//     console.log(word + " " + "is palindrome")
+// }
+
+
+
+
+// Changing case:
+
+// let name = prompt ("Enter your name")
+// name=name.toLowerCase();
+// if(name==="billa"){
+//    console.log("you are welcome")
+// }
+
+
+
+
+// for(let a = 1; a <=100; a = a + 10){
+//    for(let i=a;i<=a+9;i++){
+//     document.write(i )
+//    }
+//    document.write("<br>")
+// }
