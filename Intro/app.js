@@ -152,5 +152,6 @@
 // function getData(){
 //     let name = document.getElementById("name")
 //     console.log(name.value)
+//     name.value= ""
 //     //all the value of input is stored temporary in value attribute of input
 // }
