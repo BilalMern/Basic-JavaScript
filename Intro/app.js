@@ -142,3 +142,7 @@
 // }
 
 
+// Events on button:
+function clickBtn(){
+    console.log("here is your data!")
+}
