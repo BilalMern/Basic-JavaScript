@@ -1,14 +1,30 @@
-function getNumber(num){
-    let result=document.getElementById("result")
-   result.value +=num
-}
+// function getNumber(num){
+//     let result=document.getElementById("result")
+//    result.value +=num
+// }
 
-function clearRes(){
-    let result=document.getElementById("result")
-    result.value=""
-}
+// function clearRes(){
+//     let result=document.getElementById("result")
+//     result.value=""
+// }
 
-function getResult(){
-    let res= document.getElementById("result")
-    res.value = eval(res.value)
+// function getResult(){
+//     let res= document.getElementById("result")
+//     res.value = eval(res.value)
+// }
+
+let a = "a";
+    a = a + "b";
+console.log(a)
+
+
+let word = prompt ("Enter your word")
+let check ="";
+for(let i = word.length-1;i>=0;i--){
+    check +=word[i]
+}
+if(word == check){
+    console.log("Your entered word is palindrome!")
+}else{
+    console.log("Not palindrome!")
 }
