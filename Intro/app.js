@@ -143,6 +143,14 @@
 
 
 // Events on button:
-function clickBtn(){
-    console.log("here is your data!")
-}
+// function clickBtn(){
+//     console.log("here is your data!")
+// }
+
+
+// Reading field values:
+// function getData(){
+//     let name = document.getElementById("name")
+//     console.log(name.value)
+//     //all the value of input is stored temporary in value attribute of input
+// }
