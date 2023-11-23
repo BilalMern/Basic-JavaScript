@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.img{
+    width: 200px;
+    height: 300px;
+}
+button{
+    background-color: gray;
+    color: white;
+    border-color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    border-radius: 5px;
+}
