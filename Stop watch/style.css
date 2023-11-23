@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+   text-align: center;
+}
+h1 {
+    display: inline-block;
+    color: black;
+    background-color: white; 
+    width: 150px; 
+     
+}
+
+button {
+    background-color: grey;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
