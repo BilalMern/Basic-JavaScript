@@ -76,6 +76,7 @@ function startBtn(){
 }
 function stopBtn(){
   clearInterval(interval)
+  document.getElementById("start").disabled=false;
 }
 function resetBtn(){
   min =0;
