@@ -1,0 +1,15 @@
+
+#cart {
+    width: 250px;
+    height: 400px;
+    background-color: orange;
+    margin-left: 50px;
+}
+img{
+    width: 250px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    
+}
