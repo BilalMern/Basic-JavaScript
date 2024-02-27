@@ -1,1 +1,2 @@
-document.querySelector("#nav").innerHTML = "<h1>Hello there!";
+let query=document.querySelector("#nav").getAttribute("class")
+console.log(query)
