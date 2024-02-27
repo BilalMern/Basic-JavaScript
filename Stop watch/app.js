@@ -49,43 +49,90 @@
 // }
 
 
-let min =0;
+// let min =0;
+// let sec =0;
+// let msec =0;
+// let interval;
+// let minHeading= document.getElementById("min")
+// let secHeading = document.getElementById("sec")
+// let msecHeading = document.getElementById("msec")
+
+// function timer(){
+//   msec++;
+// msecHeading.innerHTML = msec;
+// if(msec >=100){
+//   sec++;
+//   secHeading.innerHTML=sec;
+//   msec=0;
+// }else if(sec>=60){
+//   min++;
+//   minHeading.innerHTML=min;
+//   sec=0;
+// }
+// }
+// function startBtn(){
+//   interval = setInterval(timer,10)
+//   document.getElementById("start").disabled=true;
+// }
+// function stopBtn(){
+//   clearInterval(interval)
+//   document.getElementById("start").disabled=false;
+// }
+// function resetBtn(){
+//   min =0;
+//   sec =0;
+//   msec =0;
+//   minHeading.innerHTML=min;
+//   secHeading.innerHTML=sec;
+//   msecHeading.innerHTML=msec;
+//   stopBtn()
+//   document.getElementById("start").disabled = false;
+// }
+
+
+
+
+
+let min = 0;
 let sec =0;
 let msec =0;
 let interval;
-let minHeading= document.getElementById("min")
+let minHeading = document.getElementById("min")
 let secHeading = document.getElementById("sec")
 let msecHeading = document.getElementById("msec")
 
 function timer(){
   msec++;
-msecHeading.innerHTML = msec;
-if(msec >=100){
-  sec++;
-  secHeading.innerHTML=sec;
-  msec=0;
-}else if(sec>=60){
-  min++;
-  minHeading.innerHTML=min;
-  sec=0;
+  msecHeading.innerHTML =msec;
+  if(msec >= 100){
+    sec++;
+    secHeading.innerHTML= sec;
+msec = 0;
+  }else if(sec >=60){
+    min++;
+    minHeading.innerHTML=min;
+sec =0;
+  }
+
 }
-}
+
 function startBtn(){
   interval = setInterval(timer,10)
-  document.getElementById("start").disabled=true;
+  document.getElementById("start").disabled = true; 
 }
+
 function stopBtn(){
   clearInterval(interval)
-  document.getElementById("start").disabled=false;
+  document.getElementById("start").disabled =false;
 }
+
 function resetBtn(){
   min =0;
-  sec =0;
+  sec= 0;
   msec =0;
   minHeading.innerHTML=min;
   secHeading.innerHTML=sec;
   msecHeading.innerHTML=msec;
-  stopBtn()
-  document.getElementById("start").disabled = false;
+  stopBtn();
+  document.getElementById("start").disabled =false
 }
-
