@@ -1,23 +1,5 @@
-/* body{
-    background-color: black;
-   text-align: center;
-}
-h1 {
-    display: inline-block;
-    color: black;
-    background-color: white; 
-    width: 150px; 
-     
-}
-
-button {
-    background-color: grey;
-    color: white;
-    font-size: xx-large;
-    font-weight: bolder;
-} */
 * body{
-    text-align: center;
+   text-align: center;
    margin-top: 140px;
 }
 
@@ -26,26 +8,33 @@ button {
     font-size: 70px;
     font-weight: bolder;
     text-shadow: 5px 5px 4px grey;
-    
+    color: #023047;
 }
 div h1 {
     display: inline-block;
     color: white;
-    background-color: grey; 
+    background-color: #457b9d; 
     width: 150px;
     font-size: 100px; 
-    
+    border-radius: 15px;
 }
 
 button{
   width: 100px;
-  background-color: black;
   color: white;
   font-weight: bolder;
   height: 50px;
   margin-top: 40px;
-  border-color: red;
-  border-width: 3px;
   font-size: x-large;
- 
+  border: none;
+ border-radius: 5px;
+}
+#start{
+    background-color: #023047;
+}
+#stop{
+    background-color: #588157;
+}
+#res{
+    background-color: #e76f51;
 }
